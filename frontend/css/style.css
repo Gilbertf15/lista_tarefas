@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.div_prin {
+  border: 5px solid black;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 80vh;
+  height: 50vh;
+  width: 80vh;
+  margin-left: 30%;
+  margin-top: 5%;
+  overflow-y: auto;
+  overflow: hidden;
+}
+
+div.div_prin .form_salve {
+  padding: 5px;
+  border: 2px;
+  border-radius: 2px red;
+}
+
+div.div_bin {
+  padding: 5px;
+  border: 1px;
+  border-radius: 5px yellow;
+}
+
+div.div_bin .ocultar {
+  display: none;
+}
+
+div.div_title {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 25px;
+  right: -645px;
+}
